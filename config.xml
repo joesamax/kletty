@@ -21,7 +21,7 @@
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
         <preference name="loadUrlTimeoutValue" value="700000" />
-	<preference name="disallowOverscroll" value="true" />
+	<preference name="disallowOverscroll" value="false" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="android-build-tool" value="gradle" />
 	<!-- Custom preferences -->
