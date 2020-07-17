@@ -15,14 +15,15 @@
 
 	<!-- General preferences -->
 	<preference name="android-targetSdkVersion" value="28" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="orientation" value="portrait" />
 	<preference name="buildArchitecture" value="arm" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
         <preference name="loadUrlTimeoutValue" value="700000" />
-	<preference name="disallowOverscroll" value="false" />
+	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
-
+	<preference name="android-build-tool" value="gradle" />
 	<!-- Custom preferences -->
 
 	<!-- PhoneGap plugin declaration -->
@@ -49,12 +50,7 @@
 	<!-- Icons and Splashscreens declaration -->
 
 	<icon src="icon.png" gap:platform="android" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<icon src="icon.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
 	
 	<gap:splash src="splash.png" gap:platform="android" />
 	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
